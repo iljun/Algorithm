@@ -1,7 +1,5 @@
 package codility_lesson3_1;
 
-import java.util.HashMap;
-
 public class TapeEquilibrium {
 
 	public static void main(String[] args) {
@@ -19,15 +17,18 @@ public class TapeEquilibrium {
 }
 class Solution{//절대값이 제일 작은것을 출력
 	public int solution(int[] A){
-		HashMap<Integer,Integer> hash = new HashMap<Integer,Integer>();
-		int P=1;
-		int max=0;
-		int min=0;
-		for(int i=0; i<A.length; i++){
-			max+=A[i];
-		}
-		max=max-A[0];
+		int sum=0;
+		int middle=0;
+		int min=Integer.MAX_VALUE;
 		
+		for(int i=0; i<A.length; i++)
+			sum += A[i];
+		
+		for(int i=0; i<A.length -1; i++){
+			middle+=A[i];
+			if(min>Math.abs(middle-(sum-middle)))
+				min=Math.abs(middle-(sum-middle));
+		}
 		return min;
 	}
 }
