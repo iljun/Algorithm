@@ -1,7 +1,5 @@
 package codility_lesson5_3;
 
-import javax.swing.plaf.synth.SynthSeparatorUI;
-
 public class MinAvgTwoSlice {
 
 	public static void main(String[] args) {
@@ -22,9 +20,9 @@ class Solution {
 		for(int i=0; i<A.length; i++){
 			sum[i+1]=sum[i]+A[i];
 		}
-		
-		for(int n=2;n<100000; n++){
-			for(int i=0; i<A.length-n+1; i++){
+
+		for(int n=2;n<A.length; n++){
+			for(int i=0; i<A.length-n; i++){
 				avg=(sum[i+n]-sum[i])/n;
 				if(avg<min){
 					min=avg;
