@@ -22,16 +22,19 @@ class Solution{
 		hash.put('G', 3);
 		hash.put('T', 4);
 		char[] array = S.toCharArray();
-		int[] result = new int[P.length];
-		for(int i=0; i<P.length; i++){
-			int min=Integer.MAX_VALUE;
-			for(int j=P[i];j<=Q[i];j++){
-				if(min>hash.get(array[j]))
-					min=hash.get(array[j]);
-			}
-			result[i]=min;
+		int[] result = new int[S.length()];
+		int[] q = new int[P.length];
+		for(int i=0; i<S.length(); i++){
+			result[i]=hash.get(array[i]);
 		}
 
-		return result;
+		for(int i=0; i<P.length; i++){
+			if(P[i]!=Q[i]){
+				q[i]=(P[i]<Q[i]) ? result[Q[i]] : result[P[i]];
+			}else{
+				q[i]=result[Q[i]];
+			}
+		}
+		return q;
 	}
 }
