@@ -7,25 +7,20 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
-		Long x = input.nextLong();
-		int count=0;
-
-		while(x!=1){
-			if(x%3==0){
-				x=x/3;
-			}else if(x%3==1){
-				x=x-1;
-			}else if(x%2==0){
-				x=x/2;
-			}else if(x%3==2){
-				if(x%2==0){
-					x=x/2;
-				}else
-					x--;
+		int x = input.nextInt();
+		int[] dp = new int[x+1];
+		dp[1]=0;
+		for(int i=2; i<=x; i++){
+			int min=dp[i-1];
+			if(i%3==0){
+				min=Math.min(min, dp[i/3]);
+			}else if(i%2==0){
+				min=Math.min(min, dp[i/2]);
 			}
-			count++;
+			dp[i]=min+1;
 		}
-		System.out.println(count);
+		System.out.println(dp[x]);
+
 	}
 
 }
