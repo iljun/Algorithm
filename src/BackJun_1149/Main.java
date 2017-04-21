@@ -4,29 +4,32 @@ import java.util.Scanner;
 
 public class Main {
 	static int N;
-	static int[][] arr;
+	static int[][] result;
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 
 		N = input.nextInt();
-		arr = new int[N][N];
+		result = new int[N][4];
 
-		for(int i=0; i<N; i++){
-			for(int j=0; j<N; j++){
-				int x = input.nextInt();
-				arr[i][j]=x;
+		for (int i = 0; i < N; i++) {
+			int r=input.nextInt();
+			int g=input.nextInt();
+			int b=input.nextInt();
+
+			if(i==0){
+				result[i][0]=r;
+				result[i][1]=g;
+				result[i][2]=b;
+			}else{
+				result[i][0]= Math.min(result[i-1][1]+r,result[i-1][2]+r);
+				result[i][1]= Math.min(result[i-1][0]+g,result[i-1][2]+g);
+				result[i][2]= Math.min(result[i-1][0]+b,result[i-1][1]+b);
 			}
 		}
-		int[][] result = new int[N][N];
+		int min = Math.min(result[N-1][0], Math.min(result[N-1][1], result[N-1][2]));
 
-		for(int i=0; i<N; i++){
-			result[i][0]=arr[0][i];
-		}
-
-		for(int i=1; i<N; i++){
-
-		}
+		System.out.println(min);
 	}
-
 }
