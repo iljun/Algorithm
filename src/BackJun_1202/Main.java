@@ -1,81 +1,62 @@
 package BackJun_1202;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class Main {
-	//M 보석의무게
-	//V 보석의가격
-	//C 가방의 무게
+	// M 보석의무게
+	// V 보석의가격
+	// C 가방의 무게
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 
-		int N = input.nextInt();
-		int K = input.nextInt();
+		Long N = input.nextLong();
+		Long K = input.nextLong();
 
-		PriorityQueue<Item> maxQueue = new PriorityQueue<Item>();
-		PriorityQueue<Integer> backQueue = new PriorityQueue<Integer>();
-		PriorityQueue<Item> tempQueue = new PriorityQueue<Item>();
+		PriorityQueue<Item> queue = new PriorityQueue<>();
+		PriorityQueue<Long> min = new PriorityQueue<>();
 
-		for(int i=0; i<N; i++){
-			int M = input.nextInt();
-			int V = input.nextInt();
-			maxQueue.offer(new Item(V,M));
+		for (long i = 0; i < N; i++) {
+			queue.offer(new Item(input.nextLong(), input.nextLong()));
 		}
 
-		for(int i=0; i<K; i++){
-			int C = input.nextInt();
-			backQueue.offer(C);
+		for (long i = 0; i < K; i++) {
+			Long test = input.nextLong();
+			min.offer(test);
 		}
 
-		int result=0;
+		long result = 0;
+		Item temp = null;
 
-		while(!backQueue.isEmpty()){
-			int size = backQueue.peek();
-			Item item = null;
-			List<Item> temp2 = new ArrayList<Item>();
-			if(tempQueue.isEmpty()){
-				item=maxQueue.poll();
-				if(item.weight<=size){
-					result+=item.price;
-					backQueue.poll();
-					break;
-				}else{
-					temp2.add(item);
-				}
-			}else{
-				item=tempQueue.poll();
-				if(item.weight<=size){
-					result+=item.price;
-					backQueue.poll();
-					break;
-				}else{
-					temp2.add(item);
-				}
+		while (!min.isEmpty()) {
+			Long temp2 = min.poll();
+			temp = queue.poll();
+			while (temp2 < temp.weight) {
+				temp = queue.poll();
 			}
-			tempQueue.addAll(temp2);
+			result += temp.price;
 		}
 
 		System.out.println(result);
-
 	}
 
 }
 
-class Item implements Comparable<Item>{
-	int price;
-	int weight;
+class Item implements Comparable<Item> {
+	long price;
+	long weight;
 
-	public Item(int price, int weight){
+	public Item(long weight, long price) {
 		this.price = price;
 		this.weight = weight;
 	}
 
 	@Override
-	public int compareTo(Item i){
-		return this.price > i.price ? -1 : 1;
+	public int compareTo(Item i) {
+		if (this.price == i.price)
+			return this.weight > i.weight ? -1 : 1;
+		else
+			return this.weight > i.weight ? -1 : 1;
 	}
 }
