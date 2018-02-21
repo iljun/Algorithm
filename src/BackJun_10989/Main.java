@@ -1,21 +1,26 @@
 package BackJun_10989;
 
-import java.util.PriorityQueue;
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 public class Main {
 	static int N;
-	public static void main(String[] args) {
+	static int[] result= new int[10001];
+	public static void main(String[] args){
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		N = input.nextInt();
-		PriorityQueue<Integer> queue = new PriorityQueue<>();
-		for(int i=0; i<N; i++)
-			queue.offer(input.nextInt());
-		input.close();
+		for(int i = 0 ; i < N; i++)
+			result[input.nextInt()]++;
 
-		while(!queue.isEmpty())
-			System.out.println(queue.poll());
+		for(int i = 0; i < 10001; i++){
+			if(result[i]>0){
+				for(int j=0; j<result[i]; j++){
+					System.out.println(i);
+				}
+			}
+		}
+
 	}
 
 
