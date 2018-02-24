@@ -2,106 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3d008c6-a2c4-421f-8d44-b66c51a984ea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.project" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1003/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1003/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_10868/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_10868/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_10988/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_10988/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_11047/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_11047/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_11053/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_11053/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_11055/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_11055/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1126/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1126/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_11399/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_11399/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1149/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1149/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1158/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1158/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_11722/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_11722/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1202/Item.class" afterPath="$PROJECT_DIR$/bin/BackJun_1202/Item.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1202/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1202/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1431/ComapreInteger.class" afterPath="$PROJECT_DIR$/bin/BackJun_1431/ComapreInteger.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1431/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1431/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1463/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1463/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1509/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1509/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1520/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1520/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1655/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1655/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1753/Dijkstra.class" afterPath="$PROJECT_DIR$/bin/BackJun_1753/Dijkstra.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1753/Node.class" afterPath="$PROJECT_DIR$/bin/BackJun_1753/Node.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1766/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1766/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1786/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1786/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1916/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1916/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1916/Node.class" afterPath="$PROJECT_DIR$/bin/BackJun_1916/Node.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1927/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1927/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1931/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_1931/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1931/Node.class" afterPath="$PROJECT_DIR$/bin/BackJun_1931/Node.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_1932/DP1.class" afterPath="$PROJECT_DIR$/bin/BackJun_1932/DP1.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_2042/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_2042/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_2156/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_2156/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_2163/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_2163/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_2193/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_2193/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_2293/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_2293/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_2294/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_2294/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_2357/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_2357/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_2579/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_2579/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_2696/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_2696/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_2698/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_2698/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_2989/CompareFlower.class" afterPath="$PROJECT_DIR$/bin/BackJun_2989/CompareFlower.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_2989/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_2989/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_2989/Node.class" afterPath="$PROJECT_DIR$/bin/BackJun_2989/Node.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_5052/CompareLength.class" afterPath="$PROJECT_DIR$/bin/BackJun_5052/CompareLength.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_5052/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_5052/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_5585/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_5585/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_6359/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_6359/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_9084/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_9084/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/BackJun_9095/Main.class" afterPath="$PROJECT_DIR$/bin/BackJun_9095/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/Backjun_10610/Main.class" afterPath="$PROJECT_DIR$/bin/Backjun_10610/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/Backjun_11279/Main.class" afterPath="$PROJECT_DIR$/bin/Backjun_11279/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/Backjun_11286/Main.class" afterPath="$PROJECT_DIR$/bin/Backjun_11286/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/Backjun_11286/Node.class" afterPath="$PROJECT_DIR$/bin/Backjun_11286/Node.class" />
-      <change beforePath="$PROJECT_DIR$/bin/Backjun_1715/Main.class" afterPath="$PROJECT_DIR$/bin/Backjun_1715/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/GetMinValue/GetMaxValue.class" afterPath="$PROJECT_DIR$/bin/GetMinValue/GetMaxValue.class" />
-      <change beforePath="$PROJECT_DIR$/bin/GetMinValue/Solution.class" afterPath="$PROJECT_DIR$/bin/GetMinValue/Solution.class" />
-      <change beforePath="$PROJECT_DIR$/bin/MaxHaep/Main.class" afterPath="$PROJECT_DIR$/bin/MaxHaep/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/MaxHaep/maxHeap.class" afterPath="$PROJECT_DIR$/bin/MaxHaep/maxHeap.class" />
-      <change beforePath="$PROJECT_DIR$/bin/MaxHeap_2/Main.class" afterPath="$PROJECT_DIR$/bin/MaxHeap_2/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/MaxHeap_2/MaxHeap.class" afterPath="$PROJECT_DIR$/bin/MaxHeap_2/MaxHeap.class" />
-      <change beforePath="$PROJECT_DIR$/bin/MaxHeap_2/Node.class" afterPath="$PROJECT_DIR$/bin/MaxHeap_2/Node.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lession3_3/PermMissingElem.class" afterPath="$PROJECT_DIR$/bin/codility_lession3_3/PermMissingElem.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lession3_3/Solution.class" afterPath="$PROJECT_DIR$/bin/codility_lession3_3/Solution.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lession6_4/NumberOfDiscIntersections$1.class" afterPath="$PROJECT_DIR$/bin/codility_lession6_4/NumberOfDiscIntersections$1.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lession6_4/NumberOfDiscIntersections$1Circle.class" afterPath="$PROJECT_DIR$/bin/codility_lession6_4/NumberOfDiscIntersections$1Circle.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lession6_4/NumberOfDiscIntersections.class" afterPath="$PROJECT_DIR$/bin/codility_lession6_4/NumberOfDiscIntersections.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson1/Main.class" afterPath="$PROJECT_DIR$/bin/codility_lesson1/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson1/Solution.class" afterPath="$PROJECT_DIR$/bin/codility_lesson1/Solution.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson2/OddOccurrenceslnArray.class" afterPath="$PROJECT_DIR$/bin/codility_lesson2/OddOccurrenceslnArray.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson2/Solution.class" afterPath="$PROJECT_DIR$/bin/codility_lesson2/Solution.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson2_1/CycleRotation.class" afterPath="$PROJECT_DIR$/bin/codility_lesson2_1/CycleRotation.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson2_1/Solution.class" afterPath="$PROJECT_DIR$/bin/codility_lesson2_1/Solution.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson3_1/Solution.class" afterPath="$PROJECT_DIR$/bin/codility_lesson3_1/Solution.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson3_1/TapeEquilibrium.class" afterPath="$PROJECT_DIR$/bin/codility_lesson3_1/TapeEquilibrium.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson3_2/FrogJmp.class" afterPath="$PROJECT_DIR$/bin/codility_lesson3_2/FrogJmp.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson3_2/solution.class" afterPath="$PROJECT_DIR$/bin/codility_lesson3_2/solution.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson4_1/MissingInteger.class" afterPath="$PROJECT_DIR$/bin/codility_lesson4_1/MissingInteger.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson4_1/Solution.class" afterPath="$PROJECT_DIR$/bin/codility_lesson4_1/Solution.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson4_2/PermCheck.class" afterPath="$PROJECT_DIR$/bin/codility_lesson4_2/PermCheck.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson4_2/Solution.class" afterPath="$PROJECT_DIR$/bin/codility_lesson4_2/Solution.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson5_1/CountDiv.class" afterPath="$PROJECT_DIR$/bin/codility_lesson5_1/CountDiv.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson5_1/Solution.class" afterPath="$PROJECT_DIR$/bin/codility_lesson5_1/Solution.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson5_2/PassingCars.class" afterPath="$PROJECT_DIR$/bin/codility_lesson5_2/PassingCars.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson5_2/Solution.class" afterPath="$PROJECT_DIR$/bin/codility_lesson5_2/Solution.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson5_3/MinAvgTwoSlice.class" afterPath="$PROJECT_DIR$/bin/codility_lesson5_3/MinAvgTwoSlice.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson5_3/Solution.class" afterPath="$PROJECT_DIR$/bin/codility_lesson5_3/Solution.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson5_4/GenomicRangeQuery.class" afterPath="$PROJECT_DIR$/bin/codility_lesson5_4/GenomicRangeQuery.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson5_4/Solution.class" afterPath="$PROJECT_DIR$/bin/codility_lesson5_4/Solution.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson6_1/Distinct.class" afterPath="$PROJECT_DIR$/bin/codility_lesson6_1/Distinct.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson6_1/Solution.class" afterPath="$PROJECT_DIR$/bin/codility_lesson6_1/Solution.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson6_2/MaxProductOfThree.class" afterPath="$PROJECT_DIR$/bin/codility_lesson6_2/MaxProductOfThree.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson6_3/Triangle.class" afterPath="$PROJECT_DIR$/bin/codility_lesson6_3/Triangle.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codility_lesson7_1/Brackets.class" afterPath="$PROJECT_DIR$/bin/codility_lesson7_1/Brackets.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codingdojang_18/Main.class" afterPath="$PROJECT_DIR$/bin/codingdojang_18/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codingdojang_7/Main.class" afterPath="$PROJECT_DIR$/bin/codingdojang_7/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/codingdojang_98/Main.class" afterPath="$PROJECT_DIR$/bin/codingdojang_98/Main.class" />
-      <change beforePath="$PROJECT_DIR$/src/BackJun_10989/Main.java" afterPath="$PROJECT_DIR$/src/BackJun_10989/Main.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,19 +15,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BackJun_1003/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BackJun_10989/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="234">
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BackJun_7469/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="90">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1321#1322#0" expanded="true" />
@@ -152,9 +43,33 @@
         </entry>
       </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BackJun_1727/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="85" lean-forward="true" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BackKin_2399/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BackJun_10814/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
+            <state relative-caret-position="414">
               <caret line="23" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="1" />
               <folding>
                 <element signature="e#715#716#0" expanded="true" />
@@ -169,7 +84,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BackJun_3047/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="306">
               <caret line="19" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -181,7 +96,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BackJun_10825/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="594">
               <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding />
             </state>
@@ -191,8 +106,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BackJun_11652/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,8 +118,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BackJun_3020/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="414">
+              <caret line="26" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -251,6 +166,8 @@
         <option value="$PROJECT_DIR$/src/BackJun_11652/Main.java" />
         <option value="$PROJECT_DIR$/src/BackJun_3020/Main.java" />
         <option value="$PROJECT_DIR$/src/BackJun_7469/Main.java" />
+        <option value="$PROJECT_DIR$/src/BackJun_1727/Main.java" />
+        <option value="$PROJECT_DIR$/src/BackKin_2399/Main.java" />
       </list>
     </option>
   </component>
@@ -268,10 +185,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="x" value="64" />
+    <option name="y" value="-11" />
+    <option name="width" value="1857" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -335,6 +252,12 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BackJun_1727" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="BackJun_3047" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,10 +283,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -434,14 +357,14 @@
       <module name="Algorithm" />
       <envs />
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="BackJun_3047.*" />
+          <option name="PATTERN" value="BackJun_1727.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="BackJun_3047.Main" />
+      <option name="MAIN_CLASS_NAME" value="BackJun_1727.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -453,14 +376,14 @@
       <module name="Algorithm" />
       <envs />
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="BackJun_10825.*" />
+          <option name="PATTERN" value="BackKin_2399.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="BackJun_10825.Main" />
+      <option name="MAIN_CLASS_NAME" value="BackKin_2399.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -566,19 +489,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main (4)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main (5)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main (2)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main (3)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main (4)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main (5)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main (4)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (4)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -598,15 +521,17 @@
       <workItem from="1518613658315" duration="249000" />
       <workItem from="1518668540642" duration="12000" />
       <workItem from="1519096277236" duration="15250000" />
-      <workItem from="1519190031516" duration="11274000" />
+      <workItem from="1519190031516" duration="13256000" />
+      <workItem from="1519442995023" duration="3781000" />
+      <workItem from="1519453543397" duration="6219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26785000" />
+    <option name="totallyTimeSpent" value="38767000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -617,8 +542,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -628,8 +553,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -675,11 +600,213 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="30" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/BackJun_1003/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_10989/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_7469/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1366#1367#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_10814/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="1" />
+          <folding>
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_3047/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_10825/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_11652/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_3020/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="108" column="17" lean-forward="false" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_1727/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_1003/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_10989/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_7469/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1366#1367#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_10814/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="1" />
+          <folding>
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_3047/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_10825/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_11652/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_3020/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="108" column="17" lean-forward="false" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_1727/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BackJun_1003/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -788,8 +915,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BackJun_3020/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="414">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -798,8 +925,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BackJun_11652/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -808,7 +935,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BackJun_10825/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="594">
           <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding />
         </state>
@@ -816,7 +943,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BackJun_3047/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="306">
           <caret line="19" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -826,7 +953,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BackJun_10989/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="234">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -836,7 +963,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BackJun_10814/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
+        <state relative-caret-position="414">
           <caret line="23" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="1" />
           <folding>
             <element signature="e#715#716#0" expanded="true" />
@@ -849,14 +976,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BackJun_7469/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="90">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1321#1322#0" expanded="true" />
             <element signature="e#1366#1367#0" expanded="true" />
             <element signature="e#1411#1412#0" expanded="true" />
             <element signature="e#1495#1496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackJun_1727/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="85" lean-forward="true" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackKin_2399/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
