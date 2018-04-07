@@ -3,6 +3,7 @@ package BOJ_9663;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 
 public class Main {
     static int N;
@@ -19,6 +20,9 @@ public class Main {
     }
 
     public static void DFS(int x, int y) {
+        if(!check(x,y))
+            return ;
+
         if (x == N - 1 && y == N - 1) {
             count++;
             return;
