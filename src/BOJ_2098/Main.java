@@ -1,67 +1,46 @@
 package BOJ_2098;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Main {
-    static int N;
-    static int[][] dp;
-    static boolean[] visited;
 
     public static void main(String[] args) throws IOException {
+        new Main().input();
+    }
+
+    public void input() throws IOException{
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        N = Integer.parseInt(reader.readLine());
-        dp = new int[N][N];
-        visited = new boolean[N];
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        for (int i = 0; i < N; i++) {
-            StringTokenizer st = new StringTokenizer(reader.readLine());
-            for (int j = 0; j < N; j++) {
-                dp[i][j] = Integer.parseInt(st.nextToken());
+        int n = Integer.parseInt(reader.readLine());
+
+        int[][] arr = new int[n][n];
+
+        String[] input;
+        for(int i=0; i<n; i++){
+            input = reader.readLine().split(" ");
+            for(int j=0; j<n; j++){
+                arr[i][j] = Integer.parseInt(input[j]);
             }
         }
 
-        long result = Integer.MAX_VALUE;
-        for (int i = 0; i < N; i++) {
-            Arrays.fill(visited, false);
-            result = Math.min(result, ts(i));
-        }
+        writer.write(solve(arr,n));
 
-        System.out.println(result);
+        reader.close();
+        writer.flush();
+        writer.close();
     }
 
-    public static long ts(int start) {
-        long result = 0;
-        int cnt = 1;
-        visited[start] = true;
-        int index = 0;
-        int firstStart = start;
+    public String solve(int[][] arr, int n){
+        for(int i=0; i<n; i++){
+            boolean[] visited = new boolean[n];
+            visited[i] = true;
+            int j=i;
 
-        while (cnt != N) {
-            cnt++;
-            int min = Integer.MAX_VALUE;
-
-            for (int i = 0; i < N; i++) {
-                if (visited[i])
-                    continue;
-
-                if(dp[start][i]==0)
-                    continue;
-
-                if (min > dp[start][i]) {
-                    min = dp[start][i];
-                    index = i;
-                }
-            }
-
-            visited[index] = true;
-            result += dp[start][index];
-            start = index;
         }
-
-        return result + dp[start][firstStart];
+        return "T";
     }
+
 }
