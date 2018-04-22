@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3d008c6-a2c4-421f-8d44-b66c51a984ea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bin/BOJ_2616/Main.class" afterPath="$PROJECT_DIR$/bin/BOJ_2616/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/test/LFU.class" afterPath="$PROJECT_DIR$/bin/test/LFU.class" />
-      <change beforePath="$PROJECT_DIR$/bin/test/LRU.class" afterPath="$PROJECT_DIR$/bin/test/LRU.class" />
-      <change beforePath="$PROJECT_DIR$/bin/test/Main.class" afterPath="$PROJECT_DIR$/bin/test/Main.class" />
-      <change beforePath="$PROJECT_DIR$/bin/test/Node.class" afterPath="$PROJECT_DIR$/bin/test/Node.class" />
-      <change beforePath="$PROJECT_DIR$/src/test/Main.java" afterPath="$PROJECT_DIR$/src/test/Main.java" />
-    </list>
+    <list default="true" id="a3d008c6-a2c4-421f-8d44-b66c51a984ea" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,30 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BOJ_2602/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="76" column="52" lean-forward="false" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BOJ_9466/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="50" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BOJ_1325/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,8 +68,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BOJ_5427/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="81" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="125" selection-end-column="1" />
+            <state relative-caret-position="1440">
+              <caret line="81" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="125" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3324#3325#0" expanded="true" />
@@ -114,18 +82,44 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BOJ_2688/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="39" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="702">
+              <caret line="39" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BOJ_2666/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="9" column="69" lean-forward="false" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BOJ_14888/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="63" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2418#2419#0" expanded="true" />
+                <element signature="e#2517#2518#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BOJ_1051/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="37" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,8 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BOJ_5214/Main.java" />
-        <option value="$PROJECT_DIR$/src/test23/Main2.java" />
         <option value="$PROJECT_DIR$/src/test23/Main3.java" />
         <option value="$PROJECT_DIR$/src/test23/Main.java" />
         <option value="$PROJECT_DIR$/src/test23/Main6.java" />
@@ -222,6 +214,8 @@
         <option value="$PROJECT_DIR$/src/BOJ_5427/Main.java" />
         <option value="$PROJECT_DIR$/src/BOJ_2688/Main.java" />
         <option value="$PROJECT_DIR$/src/BOJ_2666/Main.java" />
+        <option value="$PROJECT_DIR$/src/BOJ_14888/Main.java" />
+        <option value="$PROJECT_DIR$/src/BOJ_1051/Main.java" />
       </list>
     </option>
   </component>
@@ -290,7 +284,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="iljun-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iljun-Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iljun-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iljun-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -374,24 +384,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="iljun-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iljun-Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iljun-Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iljun-Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -399,7 +393,7 @@
     <property name="settings.editor.selected.configurable" value="Groovy compiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../simple-blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -422,7 +416,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -430,14 +424,33 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="BOJ_14888.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="test.Main" />
+      <option name="MAIN_CLASS_NAME" value="BOJ_14888.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithm" />
+      <envs />
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="BOJ_1051.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="BOJ_1051.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -457,25 +470,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="BOJ_5427.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithm" />
-      <envs />
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="BOJ_10835.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="BOJ_10835.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -600,19 +594,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main (2)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main (3)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main (4)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main (5)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main (3)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main (5)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main (5)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main (4)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main (5)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -691,11 +685,12 @@
       <workItem from="1524190671781" duration="11000" />
       <workItem from="1524205648428" duration="10304000" />
       <workItem from="1524284914622" duration="5623000" />
+      <workItem from="1524377450368" duration="4625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342932000" />
+    <option name="totallyTimeSpent" value="347557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -709,7 +704,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5018868" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30470347" sideWeight="0.49811321" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30470347" sideWeight="0.49811321" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -772,20 +767,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test23/Main4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
-          <caret line="69" column="35" lean-forward="false" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test23/Main6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="71" lean-forward="false" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test23/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1023,9 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
           <caret line="96" column="42" lean-forward="false" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1035,7 +1013,7 @@
         <state relative-caret-position="1350">
           <caret line="76" column="52" lean-forward="false" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1111,8 +1089,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ_5427/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="81" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="125" selection-end-column="1" />
+        <state relative-caret-position="1440">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="125" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3324#3325#0" expanded="true" />
@@ -1123,8 +1101,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ_2688/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="702">
+          <caret line="39" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1133,6 +1111,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="69" lean-forward="false" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOJ_14888/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="63" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2418#2419#0" expanded="true" />
+            <element signature="e#2517#2518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOJ_1051/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
