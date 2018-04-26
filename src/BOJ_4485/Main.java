@@ -77,7 +77,7 @@ public class Main {
             }
 
         }
-        
+
         return String.valueOf(cost[n-1][n-1]);
     }
 }
