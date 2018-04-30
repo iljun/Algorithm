@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException { //다음에 풀기
         new Main().input();
-        //TODO dijkstra를 이용해 최단거리를 삭제후 다시 dijkstra를 이용해 거의 최단거리 구하기 
+        //TODO dijkstra를 이용해 최단거리를 삭제후 다시 dijkstra를 이용해 거의 최단거리 구하기
     }
 
     public void input() throws IOException {
@@ -58,50 +58,53 @@ public class Main {
 
     public void dijkstra(int n, int start, int end, List<Point>[] arr) {
         int[] cost = new int[n];
-
         Arrays.fill(cost, Integer.MAX_VALUE);
         cost[start] = 0;
+
         PriorityQueue<Point> queue = new PriorityQueue<>();
-        queue.offer(new Point(start, start, cost[start]));
-        Queue<Point>[] mincostQueue = new LinkedList[n];
-        for (int i = 0; i < n; i++) {
-            mincostQueue[i] = new LinkedList<>();
-        }
+        queue.offer(new Point(-1, start, cost[start]));
+        Queue<Point>[] minCostQueue = new LinkedList[n];
+        for (int i = 0; i < n; i++)
+            minCostQueue[i] = new LinkedList<>();
 
         while (!queue.isEmpty()) {
             Point currentPoint = queue.poll();
-            int startPoint = currentPoint.start;
-            int endPoint = currentPoint.target;
-            int pointCost = currentPoint.cost;
 
-            if (cost[endPoint] < currentPoint.cost)
-                continue;
-
-            if (endPoint == end)
+            if (currentPoint.target == end)
                 break;
 
             for (int i = 0; i < arr[currentPoint.target].size(); i++) {
-                int index = arr[currentPoint.target].get(i).target;//다음 index
-                int nextCost = arr[currentPoint.target].get(i).cost;//다음 이동cost
+                int index = arr[currentPoint.target].get(i).target;
+                int nextCost = arr[currentPoint.target].get(i).cost;
 
-                if (cost[index] > cost[endPoint] + nextCost) {
-                    System.out.println(currentPoint.toString());
-                    cost[index] = cost[endPoint] + nextCost;
-                    queue.offer(new Point(startPoint, index, cost[index]));
-
-                    mincostQueue[endPoint].clear();
-                    mincostQueue[endPoint].offer(new Point(startPoint, index, cost[index]));
-                } else {
-                    mincostQueue[endPoint].offer(new Point(startPoint, index, cost[index]));
+                if (cost[index] > cost[currentPoint.target] + nextCost) {
+                    cost[index] = cost[currentPoint.target] + nextCost;
+                    Point p = new Point(currentPoint.target, index, cost[index]);
+                    queue.offer(p);
+                    System.out.println(p.toString());
+                    minCostQueue[index].clear();
+                    minCostQueue[index].add(p);
+                } else if (cost[index] == cost[currentPoint.target] + nextCost) {
+                    minCostQueue[index].add(new Point(currentPoint.target, index, cost[index]));
                 }
             }
         }
 
-        System.out.println(Arrays.toString(cost));
-        for (int i = 0; i < n; i++) {
-            System.out.println(mincostQueue[i].toString());
+        while(!minCostQueue[end].isEmpty()){
+            Point rootPoint = minCostQueue[end].poll();
+            int deleteIndex = rootPoint.start;
+            for(int i=0; i<arr[deleteIndex].size(); i++){
+
+            }
+
         }
+        for (int i = 0; i < n; i++) {
+//            System.out.println(arr[i].toString());
+            System.out.println(Arrays.toString(cost));
+        }
+        System.out.println("finish");
     }
+
 }
 
 class Point implements Comparable<Point> {
