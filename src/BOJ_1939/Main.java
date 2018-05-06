@@ -4,7 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class Main {
     static int N;
@@ -34,9 +36,21 @@ public class Main {
         int start = Integer.parseInt(input[0]);
         int end = Integer.parseInt(input[1]);
 
-        for(int i=1; i<N+1; i++){
-            System.out.println(list[i].toString());
+        System.out.println(BFS(start,end));
+    }
+
+    public static int BFS(int start, int end){
+        Queue<Point> queue = new LinkedList<>();
+        queue.addAll(list[start]);
+        boolean[] visited = new boolean[N+1];
+        visited[start] = true;
+
+        int result=0;
+        while(!queue.isEmpty()){
+            Point currentPoint = queue.poll();
         }
+
+        return result;
     }
 }
 

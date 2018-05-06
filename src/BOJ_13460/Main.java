@@ -1,132 +1,132 @@
 package BOJ_13460;
 
-import java.io.*;
-import java.util.Arrays;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.StringTokenizer;
 
-/**
- * Created By iljun
- * User : iljun
- * Date : 18. 4. 30
- * Time: 오후 1:04
- */
 public class Main {
-    //TODO 중복코드 제거 및 다시풀기
+
+    static int[] dx = { 0, 0, 1, -1 };
+    static int[] dy = { 1, -1, 0, 0 };
+
     public static void main(String[] args) throws IOException {
-        new Main().input();
-    }
 
-    public void input() throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
+        // input
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine().trim());
+        char[][] board = new char[Integer.parseInt(st.nextToken())][Integer.parseInt(st.nextToken())];
 
-        String[] input = reader.readLine().split(" ");
-        int n = Integer.parseInt(input[0]);
-        int m = Integer.parseInt(input[1]);
+        int[] red = new int[2]; // (x, y)
+        int[] blue = new int[2]; // x, y
 
-        String[][] arr = new String[n][m];
-
-        Ball redBall = null;
-        Ball blueBall = null;
-        Ball finished = null;
-        for (int i = 0; i < n; i++) {
-            input = reader.readLine().split("");
-            for (int j = 0; j < m; j++) {
-                arr[i][j] = input[j];
-                if (arr[i][j].equals("R")) {
-                    redBall = new Ball(i, j);
+        for (int i = 0; i < board.length; i++) {
+            String tmp = br.readLine();
+            for (int j = 0; j < board[0].length; j++) {
+                board[i][j] = tmp.charAt(j);
+                if (tmp.charAt(j) == 'B') {
+                    blue[0] = j;
+                    blue[1] = i;
                 }
 
-                if (arr[i][j].equals("B")) {
-                    blueBall = new Ball(i, j);
-                }
-
-                if (arr[i][j].equals("O")) {
-                    finished = new Ball(i, j);
+                if (tmp.charAt(j) == 'R') {
+                    red[0] = j;
+                    red[1] = i;
                 }
             }
         }
 
-        writer.write(String.valueOf(solve(n, m, arr, redBall, blueBall, finished)));
+        boolean [][][][] checkPosition = new boolean[11][11][11][11];
 
-        reader.close();
-        writer.flush();
-        writer.close();
-    }
+        // solve
+        Queue<Ball> queue = new LinkedList<>();
+        queue.add(new Ball(red[0], red[1], blue[0], blue[1], 0));
+        boolean flag = false;
 
-    public int solve(int n, int m, String[][] arr, Ball redBall, Ball blueBall, Ball finished) {
-        int[] xMove = {-1, 1, 0, 0};//상하
-        int[] yMove = {0, 0, -1, 1};//좌우
-        boolean[][][][] visited = new boolean[n][m][n][m];
-        visited[redBall.x][redBall.y][blueBall.x][blueBall.y]=true;
+        while (!queue.isEmpty() ) {
+            if (flag)
+                break;
+            Ball c = queue.poll();
 
-        Queue<Ball> redBallQueue = new LinkedList<>();
-        Queue<Ball> blueBallQueue = new LinkedList<>();
-        redBallQueue.add(redBall);
-        blueBallQueue.add(blueBall);
-        int cnt = 0;
-        while (cnt < 11) {
-            cnt++;
+            for (int i = 0; i < 4; i++) {
 
-            Ball currentRedBall = redBallQueue.poll();//나가야됨
-            Ball currentBlueBall = blueBallQueue.poll();
-            if(arr[currentRedBall.x][currentRedBall.y].equals("O"))
-                return cnt;
+                int rCount = 0;
+                int bCount = 0;
 
-            for (int i = 0; i < 4; i++) {// i==0 상 i==1 하 i==2 좌 i==3 우
-                int redBallNextX = currentRedBall.x;
-                int redBallNextY = currentRedBall.y;
-                int blueBallNextX = currentBlueBall.x;
-                int blueBallNextY = currentBlueBall.y;
+                int rx = c.redX;
+                int ry = c.redY;
+                int bx = c.blueX;
+                int by = c.blueY;
 
-                while (!arr[redBallNextX+xMove[i]][redBallNextY+yMove[i]].equals("#") && !arr[redBallNextX+xMove[i]][redBallNextY+yMove[i]].equals("O")) {//한번에 이동하는 최대 수
-                    redBallNextX += xMove[i];
-                    redBallNextY += yMove[i];
+                while (board[ry + dy[i]][rx + dx[i]] != '#' && board[ry + dy[i]][rx + dx[i]] != 'O') {
+                    rx += dx[i];
+                    ry += dy[i];
+                    rCount++;
                 }
 
-                while (!arr[blueBallNextX+xMove[i]][blueBallNextY+yMove[i]].equals("#") && !arr[blueBallNextX+xMove[i]][blueBallNextY+yMove[i]].equals("O")) {
-                    blueBallNextX += xMove[i];
-                    blueBallNextY += yMove[i];
+                while (board[by + dy[i]][bx + dx[i]] != '#' && board[by + dy[i]][bx + dx[i]] != 'O') {
+                    bx += dx[i];
+                    by += dy[i];
+                    bCount++;
                 }
 
-                if(redBallNextX==blueBallNextX && redBallNextY==blueBallNextY) {
-                    if(arr[redBallNextX][redBallNextY].equals("O"))
+                if (rx == bx && ry == by) { // blue = red
+                    if (board[by + dy[i]][bx + dx[i]] == 'O') {
                         continue;
-                    if((Math.abs(redBallNextX-blueBallNextX)+Math.abs(redBallNextY-blueBallNextY)) > (Math.abs(blueBallNextX-redBallNextX)+Math.abs(blueBallNextY-redBallNextY))) {
-                        redBallNextX -= xMove[i];
-                        redBallNextY -= yMove[i];
+                    }
+
+                    if (rCount > bCount) {
+                        rx -= dx[i];
+                        ry -= dy[i];
                     } else {
-                        blueBallNextX -= xMove[i];
-                        blueBallNextY -= yMove[i];
+                        bx -= dx[i];
+                        by -= dy[i];
                     }
                 }
-                if(arr[blueBallNextX][blueBallNextY].equals("O"))
+
+                if (board[by + dy[i]][bx + dx[i]] == 'O') { // blue hall
+                    continue;
+                }
+
+                if (board[ry + dy[i]][rx + dx[i]] == 'O') {
+                    System.out.println(c.count + 1);
+                    return;
+                }
+
+                if (rx == c.redX && ry == c.redY && bx == c.blueX && by == c.blueY)
                     continue;
 
-                if(!visited[redBallNextX][redBallNextY][blueBallNextX][blueBallNextY]) {
-                    visited[redBallNextX][redBallNextY][blueBallNextX][blueBallNextY] = true;
-                    redBallQueue.add(new Ball(redBallNextX,redBallNextY));
-                    blueBallQueue.add(new Ball(blueBallNextX,blueBallNextY));
+                if(checkPosition[rx][ry][bx][by])
+                    continue;
+
+                if(c.count<9) {
+                    checkPosition[rx][ry][bx][by]=true;
+                    queue.add(new Ball(rx, ry, bx, by, c.count + 1));
                 }
             }
+
         }
 
-        return -1;
+        System.out.println(-1);
+
     }
+
 }
-
 class Ball {
-    int x;
-    int y;
+    int redX;
+    int redY;
+    int blueX;
+    int blueY;
+    int count = 0;
 
-    public Ball(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
-
-    @Override
-    public String toString(){
-        return String.format("Ball( x = %s, y = %d)",this.x,this.y);
+    public Ball(int redX, int redY, int blueX, int blueY, int count) {
+        super();
+        this.redX = redX;
+        this.redY = redY;
+        this.blueX = blueX;
+        this.blueY = blueY;
+        this.count = count;
     }
 }
