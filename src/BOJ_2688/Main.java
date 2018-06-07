@@ -1,10 +1,12 @@
 package BOJ_2688;
 
 import java.io.*;
+import java.math.BigDecimal;
 
 public class Main {
 
     public static void main(String[] args) throws IOException{
+        System.out.println(Integer.parseInt("0.1",2));
         new Main().input();
     }
 
@@ -47,6 +49,7 @@ public class Main {
         reader.close();
         writer.flush();
         writer.close();
+
     }
 
 }
